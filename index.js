@@ -2,4 +2,5 @@ console.log('Hello World')
 
 console.log('Hello Boolean')
 
-console.log(`Hello ${process.argv[2]}`)
+const parola = process.argv[2]
+console.log(`Hello ${parola}`)
